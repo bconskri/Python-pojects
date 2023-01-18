@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+pytest = "*"
+pytest-django = "*"
+pytest-cov = "*"
+factory-boy = "*"
+responses = "*"
+
+[packages]
+requests = "==2.18.4"
+celery = "==4.1.1"
+Django = "==2.0"
+redis = "==2.10.6"
+marshmallow = "==2.15.1"
+jsonschema = "==2.6.0"
+pytest = "==3.6.0"
+pytest-django = "==4.5.2"
+
+[requires]
+python_version = "3.6"

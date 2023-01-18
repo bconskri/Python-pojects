@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pygame = "~=2.1.2"
+numpy = "~=1.21.3"
+lxml = "~=4.7.1"
+pytz = "~=2021.3"
+six = "~=1.16.0"
+python-dateutil = "~=2.8.2"
+enum34 = "~=1.1.10"
+click = "~=8.0.3"
+requests = "~=2.26.0"
+urllib3 = "~=1.26.7"
+certifi = "~=2021.10.8"
+idna = "~=3.3"
+bs4 = "~=0.0.1"
+beautifulsoup4 = "~=4.10.0"
+PyYAML = "~=3.13"
+Django = "~=4.0.1"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
